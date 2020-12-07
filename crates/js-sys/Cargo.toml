@@ -19,7 +19,7 @@ test = false
 doctest = false
 
 [dependencies]
-wasm-bindgen = { path = "../..", version = "0.2.69" }
+wasm-bindgen = { git = "https://github.com/rustwasm/wasm-bindgen"}
 
 [target.'cfg(target_arch = "wasm32")'.dev-dependencies]
 wasm-bindgen-test = { path = '../test', version = '=0.3.19' }
